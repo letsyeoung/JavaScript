@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>계산기</title>
-  <style>
-    * { box-sizing: border-box }
-    #result { 
-      width: 180px; 
-      height: 50px;
-      margin: 5px; 
-      text-align: right }
-    #operator { 
-      width: 50px; 
-      height: 50px;
-      margin: 5px; 
-      text-align: center}
-    button { 
-      width: 50px;
-      height: 50px; 
-      margin: 5px }
-  </style>
+ <meta charset="utf-8">
+ <title>계산기</title>
+ <style>
+   * { box-sizing: border-box }
+   #result { 
+     width: 180px; 
+     height: 50px;
+     margin: 5px; 
+     text-align: right }
+   #operator { 
+     width: 50px; 
+     height: 50px;
+     margin: 5px; 
+     text-align: center}
+   button { 
+     width: 50px;
+     height: 50px; 
+     margin: 5px }
+ </style>
 </head>
   
 <!-- 계산기 버튼 구현 -->
@@ -132,6 +132,7 @@
       } else {
         alert('숫자를 먼저 입력하세요.');
       }
+<<<<<<< HEAD
     });
   
     document.querySelector('#plus').addEventListener('click', onClickOperator('+'));
@@ -141,3 +142,19 @@
   </script>
 </body>
 </html>
+=======
+    } else {
+      alert('숫자를 먼저 입력하세요.');
+    }
+  });
+
+  document.querySelector('#plus').addEventListener('click', onClickOperator('+'));
+  document.querySelector('#minus').addEventListener('click', onClickOperator('-'));
+  document.querySelector('#divide').addEventListener('click', onClickOperator('/'));
+  document.querySelector('#multiply').addEventListener('click', onClickOperator('*'));
+
+
+  </script>
+ </body>
+</html>
+>>>>>>> 680017cf3507d044ab6e54a0474364f88bac1a36
